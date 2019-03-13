@@ -158,6 +158,12 @@ def team_colors(team_name)
   team.fetch(:colors)
 end
 
+def player_numbers(name)
+  player = find_the_player(name)
+  player.fetch(:number)
+end
+
+
 
 
 
