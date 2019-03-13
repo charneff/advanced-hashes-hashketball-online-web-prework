@@ -122,6 +122,7 @@ def game_hash
 def num_points_scored(name)
   player = find_the_player(name)
   player.fetch(:points)
+  binding.pry
 end
 
 def shoe_size(name)
