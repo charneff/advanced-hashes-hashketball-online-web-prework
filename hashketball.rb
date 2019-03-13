@@ -124,7 +124,7 @@ def teams
 end
 
 def players
-  game_hash
+  game_hash[:home][:players].merge
 
 
 
