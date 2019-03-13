@@ -135,6 +135,7 @@ def player_stats(player_name)
   find_the_player(player_name)
 end
 
+def num_points_scored(
 
 
 
