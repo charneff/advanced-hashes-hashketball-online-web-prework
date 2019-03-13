@@ -146,7 +146,7 @@ def shoe_size(name)
 end
 
 def team_colors(team_name)
-  team_name.map 
+  team = find_the_team
 
 
 
